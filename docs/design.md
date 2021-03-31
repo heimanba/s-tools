@@ -27,7 +27,7 @@
 ```
 
 ### 前后端分别部署使用，比如：
-`hexo init hexo-site && s-function new functions`
+`hexo init hexo-site && s-tools new functions`
 
 项目结构为
 ```

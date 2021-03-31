@@ -10,9 +10,10 @@ export default class SFunctionInit {
 
   /**
    *
-   * @param type 初始化组件类型
+   * @param type 初始化组件类型(midway-hooks-react|midway-hooks-vue|functions)
    * @param name 初始化组件名称，默认为 'my-devs-app'
    * @param framework 前端初始化的框架。比如hexo, gatsby等默认有自己标准的源文件和build文件路径
+   * 只有type===functions时候，framework才有值。hexo, gasby, vuepress
    */
   constructor(type: string, name?: string, framework?: string) {
     this.name = name || 'my-devs-app';
