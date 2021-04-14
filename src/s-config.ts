@@ -5,5 +5,10 @@ export default (framework?: string) => {
         sourceDir: 'source',
         outputDir: 'public',
       };
+    default:
+      return {
+        sourceDir: 'src',
+        outputDir: 'build',
+      };
   }
 };

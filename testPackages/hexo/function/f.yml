@@ -1,0 +1,10 @@
+service:
+  name: hfs-function-demo
+
+provider:
+  name: aliyun
+
+aggregation:
+  all:
+    functionsPattern:
+       '*'

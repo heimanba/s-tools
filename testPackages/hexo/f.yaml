@@ -1,0 +1,16 @@
+service:
+  name: hfs-hexo-demo
+provider:
+  name: aliyun
+  runtime: nodejs12
+aggregation:
+  hexo:
+    functionsPattern:
+      - '*'
+deployType:
+  type: static
+  config:
+    rootDir: public
+package:
+  include:
+    - public
